@@ -1,0 +1,29 @@
+prefix: "&8[&6GuildForge&8] "
+
+guild:
+  join: "&aВы вступили в гильтию %guild%!"
+  leave: "&cВы покинули гильтию."
+  already_in: "&cВы уже состоите в гильтии!"
+  not_in: "&cВы не состоите в гильтии!"
+  rank_up: "&aПоздравляем! Вы достигли ранга %rank%!"
+
+contribution:
+  added: "&a+%amount% очков вклада"
+  not_enough: "&cУ вас недостаточно очков вклада!"
+
+warps:
+  created: "&aВарп %name% создан!"
+  deleted: "&cВарп %name% удален!"
+  limit_reached: "&cВы достигли лимита варпов!"
+  only_cartographer: "&cТолько картографы могут использовать варпы!"
+  teleporting: "&aТелепортация..."
+
+alchemist:
+  potion_boosted: "&d✨ Алхимия усилила действие зелья! (x%multiplier%)"
+  no_effect: "&7У зелья нет эффектов для усиления"
+
+errors:
+  no_permission: "&cУ вас нет прав!"
+  player_not_found: "&cИгрок не найден!"
+  invalid_number: "&cВведите число!"
+  reloaded: "&aКонфиг перезагружен!"
