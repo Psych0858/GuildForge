@@ -1,0 +1,36 @@
+name: GuildForge
+version: 1.0.1
+main: ru.guildforge.GuildForge
+api-version: 1.20
+folia-supported: true  # Важно для Folia!
+author: Ragnarok
+description: Система гильдий с уникальными способностями и эксклюзивными предметами
+
+depend: []
+softdepend: [PlaceholderAPI]
+
+commands:
+  guild:
+    description: Открыть меню гильдий
+    usage: /guild
+    aliases: [g, гильдия]
+  guildadmin:
+    description: Админские команды для управления гильдиями
+    usage: /guildadmin <reload|info|setguild|addcontribution|setleader>
+    aliases: [ga, админгильдия]
+    permission: guildforge.admin
+  warp:
+    description: Управление варпами (для картографов)
+    usage: /warp <create|delete|list|название>
+    aliases: [варп]
+
+permissions:
+  guildforge.admin:
+    description: Доступ к админским командам
+    default: op
+  guildforge.user:
+    description: Базовые права для игроков
+    default: true
+  guildforge.setleader:
+    description: Право назначать главу гильдии
+    default: op

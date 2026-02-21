@@ -1,0 +1,12 @@
+# Folia-specific configuration
+# Этот файл можно добавить для дополнительной настройки
+
+global-region:
+  # Задачи, которые должны выполняться в глобальном регионе
+  auto-save-interval: 300  # секунды
+  database-cleanup-interval: 3600  # секунды
+
+thread-pool:
+  # Настройки пула потоков
+  core-size: 4
+  max-size: 8
